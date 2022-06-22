@@ -23,7 +23,7 @@
   "sourceMap": "110:71:1:-;;;169:2;140:31;;110:71;8:9:-1;5:2;;;30:1;27;20:12;5:2;110:71:1;;;;;;;",
   "deployedSourceMap": "110:71:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;110:71:1;;;;;;;;;;;;;;;;;;;140:31;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;:::o",
   "source": "// SPDX-License-Identifier: MIT\r\npragma solidity >=0.4.22 <0.9.0;\r\n\r\n/**\r\n * The Ticket_Manage contract\r\n */\r\ncontract Ticket_Manage {\r\n    uint256 public ticketCount = 10;\r\n    \r\n}\r\n",
-  "sourcePath": "C:\\Users\\VASU\\Documents\\github\\dec-starter\\src\\contracts\\Ticket_Manage.sol",
+  "sourcePath": "C:\\Users\\VASU\\Documents\\github\\dec-ticket\\src\\contracts\\Ticket_Manage.sol",
   "ast": {
     "absolutePath": "project:/src/contracts/Ticket_Manage.sol",
     "exportedSymbols": {
@@ -211,9 +211,17 @@
     "name": "solc",
     "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x5C427eBD280f723D259aa314cda6F848Df819A22",
+      "transactionHash": "0x55d026a0ee1a7e503cdaee60e2030fda14f5d0b9a67fd8b230f4356220000dab"
+    }
+  },
   "schemaVersion": "3.4.7",
-  "updatedAt": "2022-06-22T00:22:05.388Z",
+  "updatedAt": "2022-06-22T00:41:56.249Z",
+  "networkType": "ethereum",
   "devdoc": {
     "methods": {}
   },

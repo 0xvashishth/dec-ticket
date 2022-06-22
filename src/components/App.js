@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Web3 from "web3";
-import Starter from "../abis/Starter.json";
+import Ticket from "../abis/Ticket_Manage.json";
 import Navbar from "./Navbar";
 import "./App.css";
 import Main from "./Main.js";
@@ -21,12 +21,12 @@ class App extends Component {
     this.setState({ ethBalance });
 
     const networkId = await web3.eth.net.getId();
-    if (Starter.networks[networkId]) {
-      const start = new web3.eth.Contract(
-        Starter.abi,
-        Starter.networks[networkId].address
+    if (Ticket.networks[networkId]) {
+      const ticket_manage = new web3.eth.Contract(
+        Ticket.abi,
+        Ticket.networks[networkId].address
       );
-      this.setState({ start });
+      this.setState({ ticket_manage });
     } else {
       window.alert("Contract Not Deployed");
     }
@@ -53,7 +53,7 @@ class App extends Component {
     super(props);
     this.state = {
       account: "",
-      start: {},
+      ticket_manage: {},
       ethBalance: "0",
       loading: true,
     };

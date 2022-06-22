@@ -1,7 +1,7 @@
 {
-    "name": "starter",
+    "name": "dec-ticket",
     "version": "0.1.0",
-    "description": "Starter App for blockchain development",
+    "description": "Decentralize Ticket Management System",
     "author": "vashishthchaudhary48@gmail.com",
     "dependencies": {
         "babel-polyfill": "6.26.0",
