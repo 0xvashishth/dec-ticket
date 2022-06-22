@@ -1,4 +1,4 @@
-# Starter kit for blockchain development
+# Starter kit for dec-ticket
 
 ## Main Packages Included :
 	- Bootstrap
